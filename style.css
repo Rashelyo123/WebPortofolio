@@ -114,6 +114,12 @@ header nav ul li a:hover {
   width: 0;
   animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
 }
+.intro-text {
+  width: 100%;  /* Atur lebar menjadi 100% agar elemen menyesuaikan dengan ruang yang ada */
+  white-space: normal;  /* Pastikan teks bisa dipotong dan dibungkus ke baris berikutnya jika terlalu panjang */
+  word-wrap: break-word; /* Mencegah teks keluar dari batas */
+}
+
 
 .intro-text p {
   font-size: 1.5rem;
