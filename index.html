@@ -30,12 +30,39 @@
     <!-- Navbar -->
     <header>
       <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><button id="darkModeToggle">Dark Mode</button></li>
+        <ul
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          "
+        >
+          <div style="display: flex; gap: 20px">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="darkModeToggle">Dark Mode</button></li>
+          </div>
+          <li>
+            <a
+              href="Rashelyo-CV.pdf"
+              download
+              id="DownloadCV"
+              style="
+                padding: 10px 20px;
+                background: #dd12fd;
+                color: white;
+                border-radius: 5px;
+                text-decoration: none;
+              "
+            >
+              Download CV
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
