@@ -8,6 +8,10 @@
   word-wrap: break-word;
   white-space: normal;
 }
+.intro-text {
+  overflow: hidden;  /* Ini akan memotong teks yang melebihi batas */
+}
+
 
 html {
   scroll-behavior: smooth;
