@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.typing-effect {
+  word-wrap: break-word;
+  white-space: normal;
+}
 
 html {
   scroll-behavior: smooth;
